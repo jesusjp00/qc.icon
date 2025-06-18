@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download Manager - QC</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="grid-container">
+
+    <!-- Encabezado -->
+    <header class="header">
+        <h1>Download Manager</h1>
+        </header>
+
+    <!-- Navegación principal -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#instrucciones">Instrucciones</a></li>
+            <li><a href="https://t.me/qc_jj" target="_blank">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Barra lateral -->
+    <aside class="sidebar">
+        <h2>Recursos útiles</h2>
+        <ul>
+            <li><a href="#">Guía rápida de uso</a></li>
+            <li><a href="#">Proyectos destacados</a></li>
+            <li><a href="#">Preguntas frecuentes (FAQ)</a></li>
+            <li><a href="#">Recomendaciones de seguridad</a></li>
+        </ul>
+        <p>Visita el repositorio en GitHub para más detalles.</p>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main class="main">
+        <section>
+            <h2>¿Qué es <code>download_manager.bin</code>?</h2>
+            <p>
+                <strong>Download Manager</strong> es una herramienta para Linux que permite acceder y descargar otros proyectos desarrollados por mi Jesús A Jiménez P. "QC" de forma sencilla, rápida y directa.
+            </p>
+            <img src="img/Captura de pantalla_2025-06-18_00-46-16.png" alt="Interfaz de Download Manager" style="max-width: 100%; border-radius: 8px; margin: 1rem 0;">
+            <p>
+                Todos los proyectos están empaquetados como archivos <code>.bin</code> autoejecutables, compatibles con cualquier distribución Linux. No necesitas dependencias adicionales ni privilegios de root.
+            </p>
+        </section>
+
+        <section id="instrucciones">
+            <h2>Cómo usar <code>download_manager.bin</code></h2>
+            <ol>
+                <li>Descarga el archivo desde el enlace oficial.</li>
+                <li>Abre una terminal en el directorio donde está ubicado.</li>
+                <li>Concede permisos de ejecución: <code>chmod +x download_manager.bin</code></li>
+                <li>Ejecuta la herramienta con doble click o en terminal: <code>./download_manager.bin</code> </li>
+                <li>Sigue el menú para elegir y descargar los proyectos disponibles.</li>
+            </ol>
+            <a href="https://www.dropbox.com/scl/fi/pf40kuycmjc30f0rp5drh/m_manager.bin?rlkey=l2zw2r9acpkaed9z1youzlh35&st=qzjh7ske&dl=1" class="btn-download">Descargar download_manager.bin</a>
+        </section>
+        
+        <section id="capturas">
+    <h2>Capturas de pantalla</h2>
+    <div class="screenshots">
+        <img src="img/Captura de pantalla_2025-06-18_00-49-35.png" alt="Captura 1">
+        <img src="img/Captura de pantalla_2025-06-18_00-52-10.png" alt="Captura 2">
+    </div>
+        
+</section>
+
+        <section id="proyectos" class="project-list">
+            <h2>Proyectos disponibles para descarga</h2>
+
+            <article class="project">
+                <h3>Traductor CLI</h3>
+                <img src="img/traductor_1.png" alt="Traductor CLI">
+                <p>Traduce cualquier texto del portapapeles</p>
+            </article>
+        </section>
+
+        <p class="note">
+            <strong>Consejo:</strong> Usa <code>chmod +x archivo.bin</code> para activar cualquier archivo antes de ejecutarlo.
+        </p>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>&copy; 2025 Jesús Jiménez "QC" - Todos los derechos reservados</p>
+        <p><a href="#">Licencia</a> | <a href="#">Código fuente en GitHub</a></p>
+    </footer>
+
+</body>
+</html>
