@@ -2,7 +2,7 @@ body {
     font-size: 1.2rem;
     min-height: 100vh;
     padding: 5px;
-    background-color: hsl(216, 33%, 97%);
+    background-color: hsl(0, 0%, 100%);
     color: #333;
     font-family: 'Arial', sans-serif;
 }
